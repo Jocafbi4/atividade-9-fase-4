@@ -1,0 +1,299 @@
+/*estelizando o corpo principal*/
+body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #c4ec14;
+}
+/*estelizando a fonte h2*/
+h2{
+    color: #ffffff;
+    text-align: left;
+    padding: 0;
+    font-size: 1.5rem;
+}
+/*estelizando a fonte h4*/
+h4{
+    text-align: center;
+    font-size: 1rem;
+}
+/*estelizando a sigla*/ 
+.logo{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: #c4ec14;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 0 #000000,
+    -2px -2px 0 #000000,
+     2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+     1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+     1px -1px 0 #000000,
+    -1px 1px 0 #000000; /* Sombra para destacar */
+}
+/*estelizando o parágrafo*/ 
+p{
+    color: #000000;
+    text-align: left;
+    padding: 0;
+    font-size: 1.5rem;
+    margin-bottom: 35px;
+}
+/*estelizando o card de fundo*/
+.card-fundo {
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/*estelizando o primeiro card*/
+.card-saldo{
+    /* Estilos básicos para os cards */
+    color: #000000;
+    background-color: #dcdcd4;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+/*estelizando o segundo card*/ 
+.card-planejamento {
+    /* Estilos específicos para o card secundário */
+    color: #000000;
+    background-color: #dcdcd4;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+/*estelizando o terceiro card*/ 
+.card-investimento{
+        /* Estilos específicos para o card secundário */
+        color: #000000;
+        background-color: #dcdcd4;
+        border-radius: 30px;
+        padding: 20px;
+        margin-bottom: 100px;
+}
+.imagem-esquerda{
+position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Ajuste o valor para o tamanho desejado */
+    height: 100px; /* Ajuste o valor para o tamanho desejado */ 
+    border-radius: 100%; /* Cria um círculo perfeito */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+    border: 1px solid #c4ec14;
+}
+/*estelizando a imagem da direita*/
+.imagem-direita{
+position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 100px; /* Ajuste o valor para o tamanho desejado */
+    height: 100px; /* Ajuste o valor para o tamanho desejado */ 
+    border-radius: 100%; /* Cria um círculo perfeito */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+.value-saldo{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 273px;
+    right: 110px; /* Ajuste o valor para o espaçamento desejado */
+}
+.botao-extrato{
+    position: absolute;
+    right: 100px; /* Distância da borda direita */
+    top: 355px;
+    background-color: #4CAF50; /* Verde claro */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.botao-extrato:hover{
+    background-color: #3e8e41;
+}
+.linha-divisao {
+    width: 100%;
+    height: 1px;
+    background-color: #000; /* Cor da linha */
+    margin-top: 35px; /* Ajuste a margem superior conforme necessário */
+    margin-bottom: 35px; /* Ajuste a margem inferior conforme necessário */
+}
+.value-viagem{
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.value-objetivo{
+    position: absolute;
+    right: 110px;
+    bottom: 140px;
+    font-size: 1.5rem;
+}
+.value-obtido{
+    position: absolute;
+    right: 110px;
+    bottom: 80px;
+    font-size: 1.5rem;
+}
+.botao-detalhamento{
+    position: absolute;
+    right: 100px; /* Distância da borda direita */
+    bottom: -100px;
+    background-color: #4CAF50; /* Verde claro */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.botao-detalhamento:hover{
+    background-color: #3e8e41;
+}
+.value-investido{
+    position: absolute;
+    right: 110px;
+    bottom: -255px;
+    font-size: 1.5rem;
+}
+.detalhamentoTerciario-container{
+    position: absolute;
+    right: 100px; /* Distância da borda direita */
+    bottom: -370px;
+    background-color: #4CAF50; /* Verde claro */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.detalhamentoTerciario-container:hover{
+    background-color: #3e8e41;
+}
+.adicionar-container{
+    position: absolute;
+    top: 800px;
+    right: 800px;
+}
+.adicionar-botao{
+    position: absolute;
+    top: 55px;
+    left: 645px;
+    width: 35px; /* Ajuste o valor para o tamanho desejado */
+    height: 35px; /* Ajuste o valor para o tamanho desejado */ 
+    border-radius: 100%; /* Cria um círculo perfeito */
+}
+.text-add{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    top: 50px;
+    left: 545px;
+  }
+  
+  img:hover + .text-add {
+    display: block;
+  }
+.progressao-container{
+    position: absolute;
+    top: 600px;
+    right: 935px;
+}
+.progresso-grafico{
+    position: absolute;
+    top: -10px;
+    right: -155px;
+    width: 350px; /* Ajuste o valor para o tamanho desejado */
+    height: 45px; /* Ajuste o valor para o tamanho desejado */
+    opacity: 1; /* Ajuste a opacidade conforme necessário */
+}
+.botao-menu{
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    width: 90px; /* Ajuste o valor para o tamanho desejado */
+    height: 80px; /* Ajuste o valor para o tamanho desejado */
+    opacity: 0.9; /* Ajuste a opacidade conforme necessário */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+.calendario-botao{
+    position: absolute;
+    top: 25px;
+    right: 290px;
+    width: 100px; /* Ajuste o valor para o tamanho desejado */
+    height: 100px; /* Ajuste o valor para o tamanho desejado */
+    opacity: 0.9; /* Ajuste a opacidade conforme necessário */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+.investimento-botao{
+    position: absolute;
+    top: 30px;
+    right: 450px;
+    width: 80px; /* Ajuste o valor para o tamanho desejado */
+    height: 80px; /* Ajuste o valor para o tamanho desejado */
+    opacity: 0.9; /* Ajuste a opacidade conforme necessário */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+.ocultar-botao{
+    position: absolute;
+    top: 150px;
+    right: 120px;
+    width: 50px; /* Ajuste o valor para o tamanho desejado */
+    height: 50px; /* Ajuste o valor para o tamanho desejado */
+    opacity: 1; /* Ajuste a opacidade conforme necessário */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+/*estelizando o footer*/
+footer{
+    color: #f9f9f9; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: relative; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    bottom: 30px;
+}
+::-webkit-scrollbar {
+    width: 15px; /* Largura da barra */
+}
+  /* Estilizando a parte rolável */
+::-webkit-scrollbar-thumb {
+    background: #2ab42e; /* Cor da parte rolável */
+    border-radius: 50px;
+}
+  /* Estilizando a área ao redor da parte rolável */
+::-webkit-scrollbar-track {
+    background: #ffffff; /* Cor do fundo da área */
+    border-radius: 10px;
+}
+.value-progresso{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin-bottom: 65px;
+}
